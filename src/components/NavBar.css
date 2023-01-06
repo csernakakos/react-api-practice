@@ -1,0 +1,53 @@
+/* NavBar */
+nav {
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem;
+}
+
+/* Logo */
+nav .home-link a {
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav .logo {
+    color: var(--brand-500);
+    font-size: 2.8rem;
+}
+
+nav .app-name {
+    margin-left: 0.6rem;
+    font-size: 2.4rem;
+}
+
+/* Menu */
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.8rem 2rem;
+    margin-left: 0.8rem;
+    border-radius: 0.8rem;
+    transition: all 0.2s;
+}
+
+.menu li a:hover {
+    background: #dedede;
+
+}
+
+.menu li a.active {
+    color: var(--brand-500);
+    font-weight: 600;
+}
